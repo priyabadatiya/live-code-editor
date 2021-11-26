@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.editor-container {
+  width: 50vh;
+  flex: 1 1 auto;
+}
+.editor {
+  padding: 2rem;
+}
+
+.live-code-editor {
+  display: flex;
+}
+
+.iframe-container {
+  flex: 1 1 auto;
+  padding: 2rem;
+}
+.iframe-container iframe {
+  width: 100%;
+  border: 2px solid black;
+  height: 100%;
+  overflow: auto;
+}
