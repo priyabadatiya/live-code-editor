@@ -25,7 +25,6 @@ img {
     };
     this.iframeRef = React.createRef();
   }
-
 renderHtml() {
     this.iframeRef.current.src = this.state.htmlCode;
   }
@@ -37,9 +36,9 @@ renderHtml() {
       lineNumbers: true,
     };
     return (
-      <div className="flex">
+      <div className="flex ">
         <div className="editor-container">
-          <div className="p-8">
+          <div className="p-8 text-left">
             <CodeMirror
               value={this.state.htmlCode}
               options={{ ...options }}
@@ -49,7 +48,7 @@ renderHtml() {
               }}
             />
           </div>
-          <div className="p-8">
+          <div className="p-8 text-left">
             <CodeMirror
               value={this.state.cssCode}
               options={{ ...options, mode: "css" }}

@@ -15,14 +15,6 @@ code {
   width: 50vh;
   flex: 1 1 auto;
 }
-.editor {
-  padding: 2rem;
-}
-
-.live-code-editor {
-  display: flex;
-}
-
 .iframe-container {
   flex: 1 1 auto;
   padding: 2rem;
